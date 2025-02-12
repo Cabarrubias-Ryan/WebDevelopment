@@ -3,7 +3,7 @@
 @section('title','Services')
 
 @section('content')
-<main id="services">
+<section id="services">
     <h1>Product</h1>
     <table>
         <tr>
@@ -175,5 +175,5 @@
             </tr>
         @endforeach
     </table>
-</main>
+</section>
 @endsection

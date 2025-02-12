@@ -6,16 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('title','Web Development')</title>
     <link rel="stylesheet" href="{{ asset('css/navstyle.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/about.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('css/contact.css') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
 </head>
 <body>
-    <header id="navbar">
-        @include('layouts.navbar.nav')
-    </header>
-    <main id="app">
-        @yield('content')
+    <main id="home" class="hero-header">
+        <section class="wrapper">
+            <header>
+                @include('layouts.navbar.nav')
+            </header>
+            @yield('content')
+        </section>
     </main>
+     <script src="{{ asset('js/custom.js') }}"></script>
 </body>
 </html>

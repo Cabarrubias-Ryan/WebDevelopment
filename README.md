@@ -1,9 +1,9 @@
 WEB DEVELOPMENT
 
-![alt text](/public/storage/images/documentaion/home.png)
+![alt text](/public/documentation/home.png)
 
-![alt text](/public/storage/images/documentaion/about.png)
+![alt text](/public/documentation/about.png)
 
-![alt text](/public/storage/images/documentaion/services.png)
+![alt text](/public/documentation/services.png)
 
-![alt text](/public/storage/images/documentaion/contact.png)
+![alt text](/public//documentation/contact.png)

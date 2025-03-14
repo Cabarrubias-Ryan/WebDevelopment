@@ -10,3 +10,6 @@ Route::get('/services', function () {
     return view('contents.services');
 });
 
+Route::get('/nav', function () {
+    return view('contents.nav');
+});
